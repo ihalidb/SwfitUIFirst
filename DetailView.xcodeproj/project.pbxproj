@@ -11,6 +11,12 @@
 		ECAE182E2A88DF69009CEBFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAE182D2A88DF69009CEBFE /* ContentView.swift */; };
 		ECAE18302A88DF6A009CEBFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECAE182F2A88DF6A009CEBFE /* Assets.xcassets */; };
 		ECAE18332A88DF6A009CEBFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECAE18322A88DF6A009CEBFE /* Preview Assets.xcassets */; };
+		ECAE183A2A88EF4D009CEBFE /* PrivateImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAE18392A88EF4D009CEBFE /* PrivateImageView.swift */; };
+		ECAE183C2A88F1B6009CEBFE /* ButtonFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAE183B2A88F1B6009CEBFE /* ButtonFirst.swift */; };
+		ECAE183E2A88F1BF009CEBFE /* ButtonSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAE183D2A88F1BF009CEBFE /* ButtonSecond.swift */; };
+		ECAE18402A88FA35009CEBFE /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAE183F2A88FA35009CEBFE /* ListView.swift */; };
+		ECAE18442A88FC54009CEBFE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAE18432A88FC54009CEBFE /* User.swift */; };
+		ECAE18462A88FE22009CEBFE /* SeperatedViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAE18452A88FE22009CEBFE /* SeperatedViewList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		ECAE182D2A88DF69009CEBFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ECAE182F2A88DF6A009CEBFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECAE18322A88DF6A009CEBFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ECAE18392A88EF4D009CEBFE /* PrivateImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateImageView.swift; sourceTree = "<group>"; };
+		ECAE183B2A88F1B6009CEBFE /* ButtonFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFirst.swift; sourceTree = "<group>"; };
+		ECAE183D2A88F1BF009CEBFE /* ButtonSecond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSecond.swift; sourceTree = "<group>"; };
+		ECAE183F2A88FA35009CEBFE /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		ECAE18432A88FC54009CEBFE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		ECAE18452A88FE22009CEBFE /* SeperatedViewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeperatedViewList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +65,14 @@
 			children = (
 				ECAE182B2A88DF69009CEBFE /* DetailViewApp.swift */,
 				ECAE182D2A88DF69009CEBFE /* ContentView.swift */,
+				ECAE18392A88EF4D009CEBFE /* PrivateImageView.swift */,
+				ECAE183B2A88F1B6009CEBFE /* ButtonFirst.swift */,
+				ECAE183D2A88F1BF009CEBFE /* ButtonSecond.swift */,
 				ECAE182F2A88DF6A009CEBFE /* Assets.xcassets */,
 				ECAE18312A88DF6A009CEBFE /* Preview Content */,
+				ECAE183F2A88FA35009CEBFE /* ListView.swift */,
+				ECAE18432A88FC54009CEBFE /* User.swift */,
+				ECAE18452A88FE22009CEBFE /* SeperatedViewList.swift */,
 			);
 			path = DetailView;
 			sourceTree = "<group>";
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECAE183C2A88F1B6009CEBFE /* ButtonFirst.swift in Sources */,
+				ECAE183A2A88EF4D009CEBFE /* PrivateImageView.swift in Sources */,
+				ECAE18402A88FA35009CEBFE /* ListView.swift in Sources */,
 				ECAE182E2A88DF69009CEBFE /* ContentView.swift in Sources */,
+				ECAE183E2A88F1BF009CEBFE /* ButtonSecond.swift in Sources */,
 				ECAE182C2A88DF69009CEBFE /* DetailViewApp.swift in Sources */,
+				ECAE18462A88FE22009CEBFE /* SeperatedViewList.swift in Sources */,
+				ECAE18442A88FC54009CEBFE /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
